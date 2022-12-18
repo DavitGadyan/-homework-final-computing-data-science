@@ -12,13 +12,13 @@
 │   └── E Commerce Dataset.xlsx        <- Input datadump.
 │
 │
-├── notebooks          <- Jupyter notebooks testing the diabetes package (hm6_testing.ipynb)
+├── notebooks          <- Jupyter notebooks testing the diabetes package (final_testing.ipynb)
 │
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
 │                         generated with `pip freeze > requirements.txt`
 │
 ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-├── diabetesoop                <- Source code for use in this project.
+├── dspipeline                <- Source code for use in this project.
 │   ├── __init__.py    <- Makes src a Python module
 │   │
 │   ├── data
@@ -26,10 +26,10 @@
 │   │   └── load.py    <- Read data
 │   ├── splitting
 │   │   │
-│   │   └── split.py    <- SPlit data into train test/Cross validation
+│   │   └── split.py    <- Split data into train test/Cross validation
 │   │
 │   │
-│   ├── processing     <- Scripts to process data (remove nas, dummify, split into train andt test)
+│   ├── processing     <- Scripts to process data (remove nas, dummify)
 │   │   │
 │   │   ├── transformer.py   <- Scripts to dummify, binarize, log
 │   │   └── prep.py <- Scripts to deal with NaNs
