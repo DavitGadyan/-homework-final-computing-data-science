@@ -49,7 +49,7 @@
 
 There is parent class Preprocessor from which developer needs to inherit for a new subclass. Methods should be called according to functionality of subclass.
 
-#### Feature Generatos
+#### Feature Generator
 
 There is parent meta class Transformer from which developer needs to inherit for a new subclass. There is uniform method of generate that developer should create with functionality that subclass represents.
 
@@ -59,4 +59,4 @@ There is Model class which serves as a wrapper around scikit-learn models. Curre
 
 #### Evaluation
 
-There is Metric class with variious methods for each metrics. To develop new one developer should create relevant function add it to calculate_score method's score_dict object with key and value as reference pointer to the function. Also must specify in if else part whether it uses preicted probabilities or class to calculate metric.
+There is Metric class with various methods for each metrics. To develop new one developer should create relevant function add it to calculate_score method's score_dict object with key and value as reference pointer to the function. Also must specify in if else part whether it uses preicted probabilities or class to calculate metric.
