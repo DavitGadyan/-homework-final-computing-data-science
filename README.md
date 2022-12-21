@@ -51,7 +51,7 @@ There is a parent class Preprocessor from which developer needs to inherit for a
 
 #### Feature Generator
 
-There is a parent meta class Transformer from which developer needs to inherit for a new subclass. There is uniform method of generate that developer should create with functionality that subclass represents.
+There is a parent meta class Transformer from which developer needs to inherit for a new subclass. There is uniform method of generate that developer should create with functionality that subclass represents. New features will be added to dataframes and old will be replaced except for logged feature.
 
 #### Models
 
