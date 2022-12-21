@@ -47,11 +47,11 @@
 
 #### Preprocessors
 
-There is a parent class Preprocessor from which developer needs to inherit for a new subclass. Methods should be called according to functionality of subclass.
+There is a parent class Preprocessor from which developer needs to inherit for a new subclass. Methods should be called according to functionality of subclass.If number of processors increases it is suggested to separate each class into a separate file under folder.
 
 #### Feature Generator
 
-There is a parent meta class Transformer from which developer needs to inherit for a new subclass. There is uniform method of generate that developer should create with functionality that subclass represents. New features will be added to dataframes and old will be replaced except for logged feature.
+There is a parent meta class Transformer from which developer needs to inherit for a new subclass. There is uniform method of generate that developer should create with functionality that subclass represents. New features will be added to dataframes and old will be replaced except for logged feature. If number of feature generators increases it is suggested to separate each class into a separate file under folder.
 
 #### Models
 
